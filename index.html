@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tienda de Libros</title>
+
+</head>
+
+<body>
+    <h1>Tienda de Libros</h1>
+    <form id="formulario">
+        <label for="titulo">Titulo:</label>
+        <input type="text" id="titulo"><br>
+        
+        <label for="precio">Precio:</label>
+        <input type="number" id="precio"><br>
+        <button onclick="agregarLibro()">Agregar Libro</button>
+    </form>
+
+    <h2>Libros Disponibles</h2>
+    <ul id="lista-libros"></ul>
+
+    <h2>Carrito de Compras</h2>
+    <ul id="carrito"></ul>
+
+    <p><strong>Total:</strong> $<span id="total">0.00</span></p>
+    <script src="main.js" defer></script>
+</body>
+
+</html>
